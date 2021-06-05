@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 60px;
+}
+.navbar-brand {
+  background-image: url("images/logo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 48px;
+}
+#hover-nav {
+  color: rgba(49, 49, 49, 0.555);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+#hover-nav:hover {
+  color: rgba(0, 0, 0);
+}
+
+#content-1 {
+  background: hsl(256, 26%, 20%);
+  height: 600px;
+}
+#content-2 {
+  background: rgb(255, 255, 255);
+  height: 70vh;
+}
+#img-1 {
+  margin-top: -200px;
+  margin-left: 200px;
+  position: absolute;
+}
+.p-1 {
+  color: hsl(0, 0%, 98%);
+}
+p {
+  color: hsl(273, 4%, 51%);
+}
+
+.margins {
+  margin-left: 3.6%;
+  margin-right: 2.5%;
+}
+
+.div-2 {
+  margin-top: 13vh;
+  display: inline;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.intro h1 {
+  margin-left: 7%;
+}
+
+.btn {
+  width: 150px;
+}
+.card-group,
+.card {
+  border: none;
+  background-color: transparent;
+  height: 300px;
+}
+.card:nth-child(1),
+.card:nth-child(2) {
+  margin-right: 30px;
+}
+.card-group {
+  margin-left: 6%;
+  margin-top: 30px;
+}
+.card-body {
+  background-color: transparent;
+  text-align: left;
+  padding: 20px;
+  margin-right: 20%;
+  font-size: large;
+}
+.logo-1 {
+  margin-bottom: 30px;
+}
+#content-3 {
+  height: 500px;
+  background: rgb(255, 255, 255);
+}
+.rectangle {
+  background-color: hsl(256, 26%, 20%);
+  height: 250px;
+  width: 1200px;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#rectangle-text {
+  font-size: 60px;
+  color: hsl(0, 0%, 98%);
+}
+.r-text,
+.r-btn {
+  display: inline-flex;
+}
+.r-text {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -50%);
+}
+.r-btn {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -50%);
+  top: 40%;
+}
+
+.site-footer {
+  background-color: hsl(0, 0%, 99%);
+  padding: 45px 0 20px;
+  line-height: 24px;
+  color: #0f0f0f;
+}
+
+.site-footer h6 {
+  color: rgb(129, 128, 128);
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  text-decoration: none;
+}
+.site-footer a:hover {
+  color: #3366cc;
+}
+.footer-links {
+  margin-top: 40px;
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  margin-bottom: 10px;
+  display: block;
+}
+.footer-links a {
+  color: #000000;
+}
+
+.footer-links a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+.footer-links.inline li {
+  display: inline-flex;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  background-color: transparent;
+}
+.copyright-text {
+  margin: 0;
+}
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline;
+  margin-bottom: 0px;
+}
+
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+}
+
+.social-icons.size-sm a {
+  line-height: 40px;
+  height: 40px;
+  width: 40px;
+}
+.facebook path:hover {
+  fill: #0d55ff !important;
+}
+.twitter path:hover {
+  fill: #53baff !important;
+}
+.pinterest path:hover {
+  fill: #ff0505 !important;
+}
+.instagram path:hover {
+  fill: #ff3276 !important;
+}
+
+.svg-1 {
+  float: right;
+}
+.svg-2 path {
+  stroke: rgb(223, 222, 222);
+}
+.svg-2 {
+  float: left;
+  margin-top: -45px;
+  position: absolute;
+  width: 528;
+  height: 231;
+}
+@media only screen and (max-width: 1440px) {
+  *h1 {
+    font-size: 50px;
+  }
+
+  .img-m {
+    height: 70%;
+    transform: translate(-5%, 20%);
+  }
+  #content-1 {
+    background: hsl(256, 26%, 20%);
+    height: 500px;
+  }
+  #content-2 {
+    margin-top: 100px;
+    background: hsl(0, 0%, 100%);
+    height: 600px;
+    margin-bottom: -100px;
+  }
+}
+@media (max-width: 375px) {
+  .mobile-nav {
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  #img-1 {
+    margin-top: -106px;
+    position: static;
+    margin-left: 19px;
+    margin-bottom: 80px;
+  }
+  #content-1 {
+    background: hsl(256, 26%, 20%);
+    height: 900px;
+    text-align: center;
+  }
+  .mobile {
+    margin: 10px 50px;
+  }
+  #content-2 {
+    padding-bottom: 0px;
+    padding-top: 80px;
+    height: 1200px;
+  }
+  #content-2,
+  .card-body,
+  .card,
+  .div-2 {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .card-body {
+    width: 100%;
+  }
+  .card-group {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .intro h1 {
+    margin-left: 0;
+  }
+  .site-footer {
+    text-align: center;
+  }
+  #c {
+    padding-top: 10px;
+  }
+  .row h6 {
+    margin-top: 20px;
+  }
+
+  .rectangle {
+    width: 300px;
+    text-align: center;
+    height: 200px;
+  }
+  #rectangle-text {
+    font-size: 30px;
+  }
+
+  #content-3 {
+    margin-top: -100px;
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: rgb(252, 252, 252);
+  }
+
+  #rectangle-text {
+    text-align: center;
+    font-size: 30px;
+    color: hsl(0, 0%, 98%);
+  }
+  .r-text,
+  .r-btn {
+    display: inline-block;
+    transform: translate(-60%, -60%);
+  }
+  .r-text {
+    position: relative;
+    transform: translate(-56%, -60%);
+  }
+  .r-btn {
+    position: relative;
+  }
+  .rectangle {
+    background-color: hsl(256, 26%, 20%);
+    height: 250px;
+    width: hidden;
+    margin: 0px 40px;
+    position: relative;
+    top: 0;
+    left: 0;
+    -ms-transform: none;
+    transform: none;
+  }
+  .svg-1 {
+    float: inline-start;
+    margin-top: -130px;
+  }
+  .footer-nav {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -90px;
+  }
+  #footer-mobile {
+    position: absolute;
+    margin-left: -24.5%;
+    margin-top: -30px;
+  }
+}
